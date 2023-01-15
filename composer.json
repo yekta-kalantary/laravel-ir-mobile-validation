@@ -1,0 +1,23 @@
+{
+    "name": "yekta-kalantary/laravel-ir-mobile-validation",
+    "autoload": {
+        "psr-4": {
+            "YektaKalantary\\LaravelIrMobileValidation\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yekta Kalantary",
+            "email": "26902978+TheBiGBoSS6000@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YektaKalantary\\LaravelIrMobileValidation\\Providers\\IrMobileValidationServiceProvider"
+            ]
+        }
+    }
+}
