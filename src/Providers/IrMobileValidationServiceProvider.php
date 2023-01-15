@@ -5,11 +5,11 @@ namespace YektaKalantary\LaravelIrMobileValidation\Providers;
 use Illuminate\Support\ServiceProvider;
 use Validator;
 use YektaKalantary\LaravelIrMobileValidation\Rules\IrMobileCodePlusRule;
-use YektaKalantary\LaravelIrMobileValidation\Rules\IrMobileCodeZeroRule;
-use YektaKalantary\LaravelIrMobileValidation\Rules\IrMobileRule;
 use YektaKalantary\LaravelIrMobileValidation\Rules\IrMobileCodeRule;
-use YektaKalantary\LaravelIrMobileValidation\Rules\IrMobileZeroRule;
+use YektaKalantary\LaravelIrMobileValidation\Rules\IrMobileCodeZeroRule;
 use YektaKalantary\LaravelIrMobileValidation\Rules\IrMobileNoZeroRule;
+use YektaKalantary\LaravelIrMobileValidation\Rules\IrMobileRule;
+use YektaKalantary\LaravelIrMobileValidation\Rules\IrMobileZeroRule;
 
 class IrMobileValidationServiceProvider extends ServiceProvider
 {

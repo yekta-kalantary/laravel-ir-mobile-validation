@@ -1,5 +1,6 @@
 {
     "name": "yekta-kalantary/laravel-ir-mobile-validation",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "YektaKalantary\\LaravelIrMobileValidation\\": "src/"
